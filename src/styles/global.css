@@ -3,7 +3,7 @@
 /* Font Face Declarations */
 @font-face {
   font-family: "Prachason Neue";
-  src: url("./PrachasonNeue-SemiCondensed.woff2") format("woff2");
+  src: url("../fonts/PrachasonNeue-SemiCondensed.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -11,7 +11,7 @@
 
 @font-face {
   font-family: "Prachason Neue";
-  src: url("./PrachasonNeue-SemiCondensedSemiBold.woff2") format("woff2");
+  src: url("../fonts/PrachasonNeue-SemiCondensedSemiBold.woff2") format("woff2");
   font-weight: 600;
   font-style: normal;
   font-display: swap;
@@ -19,7 +19,7 @@
 
 @font-face {
   font-family: "Prachason Neue";
-  src: url("./PrachasonNeue-SemiCondensedBold.woff2") format("woff2");
+  src: url("../fonts/PrachasonNeue-SemiCondensedBold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -27,7 +27,7 @@
 
 @font-face {
   font-family: "Uturna";
-  src: url("./Uturna-ExtraBold.woff2") format("woff2");
+  src: url("../fonts/Uturna-ExtraBold.woff2") format("woff2");
   font-weight: 800;
   font-style: normal;
   font-display: swap;
