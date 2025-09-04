@@ -1,5 +1,6 @@
 ---
 import '../styles/global.css'
+import { Navbar } from './navbar'
 ---
 
 <html lang="en">
@@ -10,7 +11,8 @@ import '../styles/global.css'
 		<meta name="generator" content={Astro.generator} />
 		<title>World Forum for Democracy Thailand 2025</title>
 	</head>
-	<body class="bg-bg-cream min-h-screen flex items-center justify-center font-sans">
+	<body class="bg-bg-cream min-h-screen flex flex-col items-center font-sans">
+		<Navbar />
 		<slot />
 	</body>
 </html>
