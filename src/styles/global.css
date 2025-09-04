@@ -1,1 +1,68 @@
 @import "tailwindcss";
+
+/* Font Face Declarations */
+@font-face {
+  font-family: "Prachason Neue";
+  src: url("./PrachasonNeue-SemiCondensed.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Prachason Neue";
+  src: url("./PrachasonNeue-SemiCondensedSemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Prachason Neue";
+  src: url("./PrachasonNeue-SemiCondensedBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Uturna";
+  src: url("./Uturna-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@theme {
+  /* primitive tokens */
+  --color-primary-purple: #864fab;
+  --color-primary-orange: #fe7e2a;
+  --color-primary-pink: #feabe3;
+
+  --color-base-white: #ffffff;
+  --color-base-black: #323031;
+  --color-base-mint: #51b1a9;
+  --color-base-light-pink: #f9f4f2;
+  --color-base-light-yellow: #fffc92;
+
+  /* semantic tokens */
+  --color-primary: var(--color-primary-purple);
+  --color-secondary: var(--color-primary-orange);
+  --color-accent: var(--color-primary-pink);
+
+  --color-bg-white: var(--color-base-white);
+  --color-bg-cream: var(--color-base-light-pink);
+  --color-bg-mint: var(--color-base-mint);
+  --color-bg-light-yellow: var(--color-base-light-yellow);
+
+  /* font families */
+  --font-family-prachason: "Prachason Neue", sans-serif;
+  --font-family-uturna: "Uturna", sans-serif;
+  --font-family-sans: "Prachason Neue", system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* font families for Tailwind */
+  --font-sans: var(--font-family-sans);
+  --font-prachason: var(--font-family-prachason);
+  --font-uturna: var(--font-family-uturna);
+}
